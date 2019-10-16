@@ -1,0 +1,6 @@
+Debug/
+Release/makefile
+Release/objects.mk
+Release/sources.mk
+Release/src/
+misc
