@@ -29,6 +29,8 @@
 //
 #include "I2CSlave.h"
 
+#include <LPC8xx.h>
+
 // Constant variables to improve readability.
 enum {
   CLK_I2C = (1 << 5),

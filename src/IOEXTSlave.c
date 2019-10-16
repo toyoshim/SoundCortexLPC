@@ -29,6 +29,7 @@
 //
 #include "IOEXTSlave.h"
 
+#include <LPC8xx.h>
 #include <NXP/crp.h>
 
 // Disable ISP by Code Read Protection because UART-ISP pin is assigned to

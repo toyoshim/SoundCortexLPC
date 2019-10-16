@@ -29,6 +29,8 @@
 //
 #include "SPISlave.h"
 
+#include <LPC8xx.h>
+
 // Constant variables to improve readability.
 enum {
   CLK_SWM = (1 << 7),
