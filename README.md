@@ -1,10 +1,10 @@
 # SoundCortex for LPC
 This is an adoption of SoundCortex for LPC810/812.
-See https://github.com/toyoshim/SoundCortex for details.
+See [SoundCortex](https://github.com/toyoshim/SoundCortex) for details.
 LPC810 version can support I2C and SPI. LPC812 version can support IOEXT protocol for my [CP/Mega32U2](https://github.com/toyoshim/cp-mega88) in addition to I2C and SPI.
 
 ## Schematic
-[![Schematic](https://raw.githubusercontent.com/toyoshim/SoundCortex/master/schem.png "Schematic")](https://upverter.com/toyoshim/564092a49959599c/I2CBridge/)
+[![Schematic](https://raw.githubusercontent.com/toyoshim/SoundCortexLPC/master/schem.png "Schematic")](https://upverter.com/toyoshim/564092a49959599c/I2CBridge/)
 
 This contains RC LPF that consists from 68Ω register and 0.1uF capasitor. Cut-off frequency of the filter is about 23.4kHz.
 You might be able to connect it to mixer without them, but please do it at your own risk. If you ain't lucky enough, your equipments will be damaged.
