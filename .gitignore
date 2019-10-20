@@ -4,3 +4,5 @@ Release/objects.mk
 Release/sources.mk
 Release/src/
 misc
+/Release 812/
+/Debug 812/

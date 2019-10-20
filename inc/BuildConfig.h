@@ -32,7 +32,11 @@
 
 #define BUILD_I2C
 //#define BUILD_SPI
+// BUILD_IOEXT and BUILD_K007340 can not be specified together.
+// BUILD_IOEXT is available only for LPC812.
 //#define BUILD_IOEXT
+// BUILD_K007340 is available only for LPC812.
+#define BUILD_K007340
 
 #define BUILD_PSG
 #define BUILD_SCC
@@ -51,3 +55,7 @@ enum {
 };
 
 #endif // __BuildConfig_h__
+
+#if defined(BUILD_K007340) && defined(BUILD_IOEXT)
+#error BUILD_IOEXT and BUILD_K007340 can not be specified together.
+#endif
